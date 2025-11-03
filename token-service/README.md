@@ -1,5 +1,3 @@
-// ...existing code...
-{
 ## Token-service (overview)
 
 This service implements the OAuth2 authorization-code exchange and downstream processing pipeline:
