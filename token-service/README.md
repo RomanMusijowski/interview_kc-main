@@ -84,6 +84,3 @@ Unit tests include coverage for processors and formatters (see tests under `toke
 
 - Keystore: ensure `finance.keycloak.keystore-path` points to a valid JKS/PKCS12 and `finance.keycloak.keystore-password` is correct (see [`com.finance.tokenservice.security.KeyStoreLoader`](token-service/src/main/kotlin/com/finance/tokenservice/security/KeyStoreLoader.kt)).
 - If Keycloak returns HTTP errors, look at [`com.finance.tokenservice.processor.error.KeycloakErrorMapper`](token-service/src/main/kotlin/com/finance/tokenservice/processor/error/KeycloakErrorMapper.kt) and related tests (`token-service/src/test/kotlin/com/finance/tokenservice/processor/error/KeycloakErrorMapperTest.kt`).
-
-}
-...existing code...
